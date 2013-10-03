@@ -1,0 +1,12 @@
+﻿Kontrollspørsmål LAB2
+
+Forklar hvilken deler av din applikasjon så langt, implementerer de forskjellige lagene i MVC(Model-View-Controller) arkitekturen
+
+Model: HTML filen holder på alt dataen vi har. Den bestemmer hva som skal inneholde og hva vi skal ha med.
+
+View: CSS filen viser hvordan nettsiden skal ser ut, for eksempel hvilken farge den har. Den bestemmer også posisjonene på nettsiden
+
+Controller: JavaScript kontrollerer hva/hvilken funksjoner som skal vises i HTML filen, for eksempel kommentarer, artikler osv.
+
+LAB2 oppgave 2
+- header er lagt inn på css kode, se new.css #main

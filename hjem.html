@@ -3,31 +3,20 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>NEW</title>
+
+
 <link href="new.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript">
-function MM_swapImgRestore() { //v3.0
-  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
-}
-function MM_preloadImages() { //v3.0
-  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
-    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
-    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
-}
+<link href="proglangs.js" />
 
-function MM_findObj(n, d) { //v4.01
-  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
-    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
-  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
-  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
-  if(!x && d.getElementById) x=d.getElementById(n); return x;
-}
 
-function MM_swapImage() { //v3.0
-  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
-   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
-}
+<!--<script type="text/javascript">
+window.alert("Denne siden er under konstruksjon")
 </script>
+-->
+
+
 </head>
+<body>
 
     <div id="main">  
       <div class="container">  
@@ -35,28 +24,17 @@ function MM_swapImage() { //v3.0
              	<br />
                	<ul id="menu">
 
-                <li><a href="new.html">Hjem</a></li>
-                <li><a href="kronologisk.html" onclick="window.open(this.href, 'windowName', 'width=250, height=50, left=800, top=400, scrollbars, resizable'); return false;">Kronologisk</a></li>   
-                <li><a href="Hierarkisk.html" onclick="window.open(this.href, 'windowName', 'width=250, height=50, left=800, top=400, scrollbars, resizable'); return false;">Hierarkisk</a></li>   
-                <li><a href="Alfabetisk.html" onclick="window.open(this.href, 'windowName', 'width=250, height=50, left=800, top=400, scrollbars, resizable'); return false;">Alfabetisk</a></li>   
+                <li><a href="hjem.html">Hjem</a></li>             
+				<li><a href= "#" onclick= "alert('Denne siden er under konstruksjon')">Kronologisk</a></li>
+				<li><a href= "#" onclick= "alert('Denne siden er under konstruksjon')">Hierarkisk</a></li>
+				<li><a href= "#" onclick= "alert('Denne siden er under konstruksjon')">Alfabetisk</a></li>
 				</ul>
            <div style="clear:both"></div>    
-           </div><!--end header -->  
+     </div>
+           <!--end header -->  
           
-        <div id="content">
-             
-                 <!-- PROGLANGS.JS -->  
-    
-            <p>&nbsp;</p>
-        <Script Language=JavaScript>
-    
-                function printToOutputBox(selectobj){
-                 var e_proglangs = document.getElementById("proglangs");
-                 var e_outputbox = document.getElementById("outputbox");
-                 e_outputbox.innerHTML = "Du har selektert programmeringsspr&aringket " + e_proglangs.options[selectobj.selectedIndex].text;
-                }
-            
-            </Script>
+     <div id="content">    
+        <p>&nbsp;</p>
     
     
         
@@ -90,11 +68,11 @@ function MM_swapImage() { //v3.0
             <p>
             <h2>Hva er programmeringsspråk - hva er det?</h2>
             <br />
-              <span id="outputbox">Du har selektert programmeringsspr&aringket</span>
-              <script src="proglangs.js"></script>
+            <span id="outputbox">Du har selektert programmeringsspr&aringket </span>
+			<script src="proglangs.js"></script>
               
             <p>&nbsp;</p>
-          <p>&nbsp;</p>
+          	<p>&nbsp;</p>
             <p>&nbsp;</p>
             <p>&nbsp;</p>
             <p>&nbsp;</p>

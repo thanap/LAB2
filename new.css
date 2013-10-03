@@ -19,7 +19,7 @@ body {
 	margin: 0 auto;
 }
 /*
-	importerer banner/topp-bakgrunn
+	"header" importerer banner/topp-bakgrunn
 */
 #main {
 	background:url(bg-header.gif) repeat-x;
